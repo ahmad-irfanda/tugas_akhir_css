@@ -1,0 +1,142 @@
+body{
+  background-color: #f8f9fa;
+  font-family: 'Assistant', sans-serif;
+  color: black;
+	position: relative;
+	width: auto;
+}
+
+div.page
+{
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+	width: auto;
+}
+/* home page */
+/* navbar */
+.navbar{
+  min-height: 30px;
+  background-color: #ffe0ad;
+}
+
+a.navbar-brand>img {
+  height: 50px;
+}
+
+
+/* header - carousel */
+.carousel-item>img
+{
+  width: 100%;
+  height: 500px;
+}
+
+div.carousel-caption{
+  color: white;
+  text-shadow: 2px 2px 8px #FF0000;
+}
+
+div.carousel-caption>h5
+{
+  color: red;
+  text-shadow: none;
+  font-weight: bold;
+}
+
+/* section new-product */
+section.new-product{
+  background-color: #EEEBEC;
+}
+
+div#product-display
+{
+  /* background-color: #EEEBEC; */
+}
+
+.tag-title, .primary-title
+{
+  color: red;
+}
+
+.tag-title{
+  font-size: 22px;
+}
+
+.primary-title, #primary-title
+{
+  font-size: 28px;
+}
+
+img.yogurt-product{
+  height: 300px;
+  padding: 0;
+}
+
+
+/* section-icon */
+.section-icon{
+    /* background-color: #ffdfcf; */
+}
+
+div.section-icon-heading{
+  margin: 30px auto;
+}
+
+img.icon-product {
+  height: 50px;
+  fill: white;
+}
+
+
+/* footer */
+div.social-media{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #ffc1b2;
+  /* padding: 30px; */
+}
+
+div#social-media-row
+{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* background-color: red; */
+}
+
+a>img.footer-icon
+{
+  min-height: 50px;
+  max-height: 70px;
+  /* background-color: blue; */
+}
+
+p.footer-text{
+  /* position: absolute;
+  bottom: 6px;
+  right: 575px; */
+  font-size: 10px;
+  margin: 10px 0 30px 0;
+  /* margin-bottom: 30px; */
+}
+
+P.footer-text>a{
+  color: red;
+  font-weight: bold;
+}
+
+div.footer-border {
+  height: 10px;
+  background-color: #eba4b6;
+  opacity: 30%;
+}
+/* about page */
+/* card */
+div.image-panel>img {
+  width: 100%;
+  height: 200px;
+}
+
+/* blog page */
